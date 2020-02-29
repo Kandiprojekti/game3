@@ -1,1 +1,41 @@
-[]
+[
+    {
+        "attrs": {
+            "category": "item",
+            "id": "kolikot_item",
+            "src": "images/assets/Kolikot.png",
+            "visible": false
+        },
+        "className": "Image"    
+    },
+
+    {
+        "attrs": {
+            "category": "item",
+            "id": "maito_item",
+            "src": "images/assets/maito.png",
+            "visible": false
+        },
+        "className": "Image"    
+    },
+
+    {
+        "attrs": {
+            "category": "item",
+            "id": "koysi_item",
+            "src": "images/assets/koysi.png",
+            "visible": false
+        },
+        "className": "Image"    
+    },
+
+    {
+        "attrs": {
+            "category": "item",
+            "id": "kivi_item",
+            "src": "images/assets/kivi.png",
+            "visible": false
+        },
+        "className": "Image"    
+    }
+]

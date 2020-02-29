@@ -1,1 +1,303 @@
-{}
+{
+    "kyltti":{
+        "click": [
+            {
+                "command": "do_transition",
+                "destination": "kauppa"
+            }
+        ]
+    
+    },
+
+    "heinat":{
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "heinat", "string": "examine"}
+            }
+        ]
+    
+    },
+
+    "kolikot":{
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "kolikot", "string": "pickup"}
+            },
+            {
+                "command": "inventory_add",
+                "item": "kolikot_item"
+            },
+            {
+                "command": "remove_object",
+                "object": "kolikot"
+            }
+        ]    
+    },
+
+    "kolikot_item":{
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "kolikot_item", "string": "examine"}
+            }
+        ],
+        "koukku": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "kolikot_item", "string": "koukku"}
+            }
+        ],
+        "ikkuna": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "kolikot_item", "string": "ikkuna"}
+            }
+        ],
+        "ovi": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "kolikot_item", "string": "ovi"}
+            }
+        ],
+        "maidot": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "kolikot_item", "string": "maidot"}
+            },
+            {
+                "command": "inventory_remove",
+                "item": "kolikot_item"
+            },
+            {
+                "command": "inventory_add",
+                "item": "maito_item"
+            }
+        ]
+    },
+
+    "maito":{
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "maito", "string": "pickup"}
+            },
+            {
+                "command": "inventory_add",
+                "item": "maito_item"
+            },
+            {
+                "command": "remove_object",
+                "object": "maito"
+            }
+        ]
+    },
+
+    "maito_item":{
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "maito_item", "string": "examine"}
+            }
+        ],
+        "koukku": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "maito_item", "string": "koukku"}
+            }
+        ],
+        "ikkuna": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "maito_item", "string": "ikkuna"}
+            }
+        ],
+        "ovi": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "maito_item", "string": "ovi"}
+            }
+        ]    
+    },
+
+    "koysi":{
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "koysi", "string": "pickup"}
+            },
+            {
+                "command": "inventory_add",
+                "item": "koysi_item"
+            },
+            {
+                "command": "remove_object",
+                "object": "koysi"
+            }
+        ]    
+    },
+
+    "koysi_item":{
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "koysi_item", "string": "examine"}
+            }
+        ],
+        "koukku": [
+            {
+                "command": "play_sequence",
+                "sequence": "outro",
+                "monologue": false
+            }
+        ],
+        "ikkuna": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "koysi_item", "string": "ikkuna"}
+            }
+        ],
+        "ovi": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "koysi_item", "string": "ovi"}
+            }
+        ]
+    },
+
+    "kivi":{
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "kivi", "string": "pickup"}
+            },
+            {
+                "command": "inventory_add",
+                "item": "kivi_item"
+            },
+            {
+                "command": "remove_object",
+                "object": "kivi"
+            }
+        ]    
+    },
+
+    "kivi_item":{
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "kivi_item", "string": "examine"}
+            }
+        ],
+        "koukku": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "kivi_item", "string": "koukku"}
+            }
+        ],
+        "ikkuna": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "kivi_item", "string": "ikkuna"}
+            },
+            {
+                "command": "remove_object",
+                "object": "ikkuna"
+            },
+            {
+                "command": "add_object",
+                "object": "ikkuna_rikki"
+            },
+            {
+                "command": "inventory_remove",
+                "item": "kivi_item"
+            },
+            {
+                "command": "add_object",
+                "object": "kyltti"
+            }
+        ],
+        "ovi": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "kivi_item", "string": "ovi"}
+            }
+        ]    
+    },
+
+    "pussi":{
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "pussi", "string": "pickup"}
+            },
+            {
+                "command": "remove_object",
+                "object": "pussi"
+            },
+            {
+                "command": "inventory_add",
+                "item": "kolikot_item"
+            },
+            {
+                "command": "add_object",
+                "object": "poistumisnuoli_piha"
+            }
+        ]    
+    },
+
+    "poistumisnuoli_piha":{
+        "click": [
+            {
+                "command": "do_transition",
+                "destination": "piha"
+            }
+        ]    
+    },
+
+    "poistumisnuoli_piha2":{
+        "click": [
+            {
+                "command": "do_transition",
+                "destination": "piha"
+            }
+        ]    
+    },
+
+    "poistumisnuoli_piha3":{
+        "click": [
+            {
+                "command": "do_transition",
+                "destination": "piha"
+            }
+        ]    
+    },
+
+    "piha_mokki":{
+        "click": [
+            {
+                "command": "do_transition",
+                "destination": "mokki"
+            }
+        ]    
+    },
+
+    "ikkuna_rikki":{
+        "click": [
+            {
+                "command": "monologue",
+                "textkey": {"object": "ikkuna_rikki", "string": "examine"}
+            }
+        ]    
+    },
+
+    "ladon_ovi":{
+        "click": [
+            {
+                "command": "do_transition",
+                "destination": "lato"
+            }
+        ]
+    }
+}

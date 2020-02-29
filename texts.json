@@ -1,8 +1,90 @@
 {
     "default": {
-        "examine": "Tällä ei voi kyllä tehdä mitään."
+        "examine": "Ei se sinne mene."
     },
+
     "default.pickable": {
-        "default": "Tätä ei voi käyttää tähän. Voisin kyllä poimia tämän mukaani."
+      "default": "Tätä ei voi käyttää tähän. Voisin kyllä poimia tämän mukaani."
+    },
+
+    "start_credits": {
+      "examine": "Peli on toteutettu Oulun Steinerkoulun 8.luokan oppilaiden tekemien suunnitelmien ja materiaalien pohjalta keväällä 2020"
+    },
+
+    "intro": {
+      "examine": "Sainpas minä hyvät unet. Mutta nyt minua kyllä janottaa. Saisinkohan minä jostain maitoa.."
+    },
+
+    "heinat": {
+      "examine": "Sainpas minä hyvät unet. Heinissä on hyvä nukkua."
+    },
+
+    "kolikot": {
+      "pickup": "Vau, näillä saan maitoa."
+    },
+
+    "kolikot_item": {
+      "examine": "Vau, näillä saan maitoa.",
+      "koukku": "Ei se sinne mene.",
+      "ikkuna": "Ei se sinne mene.",
+      "ovi": "Ei se toimi noin.",
+      "maidot": "Vihdoin sain taas maitoa"
+    },
+
+    "kivi": {
+      "pickup": "Oho! Vara-avain taloon."
+    },
+
+    "kivi_item": {
+      "examine": "Oho! Vara-avain taloon.",
+      "koukku": "Ei se sinne mene.",
+      "ikkuna": "Oho! Se oli vahinko. Heh.",
+      "ovi": "Ei se toimi noin."
+    },
+
+    "maito": {
+      "pickup": "Vihdoin sain taas maitoa.."
+    },
+
+    "maito_item": {
+      "examine": "Vihdoin sain taas maitoa.. Hetkinen... Tämähän on vanhentunut!",
+      "koukku": "Ei se sinne mene.",
+      "ikkuna": "EI!",
+      "ovi": "Ei se noin toimi!"
+    },
+
+    "koysi": {
+      "pickup": "Tiedän mihin voin hyödyntää tätä."
+    },
+
+    "koysi_item": {
+      "examine": "Tiedän mihin voin hyödyntää tätä. Tästä tulisi kaunis kaulakoru..",
+      "ikkuna": "Mitä nää yrität?",
+      "ovi": "Ei!"
+    },
+
+    "koukku": {
+      "examine": "Tuohon voisi RIPUSTAA jotain."
+    },
+
+    "ikkuna": {
+      "examine": "Voi ei! Siitä ei pääse sisään.. VIELÄ."
+    },
+
+    "ikkuna_rikki": {
+      "examine": "Ei! Sisällä ei ollut maitoa.. Täytyy käydä kaupalla"
+    },
+
+    "ovi": {
+      "examine": "Se on lukossa. Pitää löytää avain tai toinen tie sisään."
+    },
+
+    "pussi": {
+      "pickup": "Minun ikioma matkapussini. Hei, täällähän oli kolikoita."
+    },
+
+    "maidot": {
+      "examine": "Hmmm.. Maitoa kolmella kolikolla.."
+    }
 }
 

@@ -4,20 +4,29 @@
             {
                 "do_fade": true,
                 "id": "intro_1",
-                "show_time": 4000,
+                "show_time": 3000,
                 "text": {
-                    "text": "Lähdinpä reissulle Australiaan."
+                    "text": "Jano.. Tahdon maitoa"
                 }
             }
         ],
-        "transition_length": 3000
+        "transition_length": 300
     },
+    
     "outro": {
         "slides": [
             {
                 "do_fade": true,
-                "id": "outro0",
+                "id": "outro_1",
                 "show_time": 4000,
+                "text": {
+                    "text": "Pilaantunut maito oli viimeinen pisara.. Päätin hirttäytyä.."
+                }
+            },
+            {
+                "do_fade": true,
+                "id": "outro_2",
+                "show_time": 400,
                 "imageSrc": "images/end_picture.png"
             }
         ]
