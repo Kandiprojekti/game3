@@ -4,15 +4,15 @@
             {
                 "do_fade": true,
                 "id": "intro_1",
-                "show_time": 3000,
+                "show_time": 5000,
                 "text": {
-                    "text": "Jano.. Tahdon maitoa"
+                    "text": "Nukuin yön ladossa, mutta nyt kyllä janottaa.. Tahdon maitoa.."
                 }
             }
         ],
         "transition_length": 300
     },
-    
+
     "outro": {
         "slides": [
             {
