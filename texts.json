@@ -60,7 +60,8 @@
     "koysi_item": {
       "examine": "Tiedän mihin voin hyödyntää tätä. Tästä tulisi kaunis kaulakoru..",
       "ikkuna": "Mitä nää yrität?",
-      "ovi": "Ei!"
+      "ovi": "Ei!",
+      "koukku": "Kaunis kaulakoru."
     },
 
     "koukku": {

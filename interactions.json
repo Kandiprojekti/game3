@@ -6,7 +6,6 @@
                 "destination": "kauppa"
             }
         ]
-    
     },
 
     "heinat":{
@@ -16,7 +15,16 @@
                 "textkey": {"object": "heinat", "string": "examine"}
             }
         ]
-    
+    },
+
+    "h_koysi":{
+        "click": [
+            {
+                "command": "play_sequence",
+                "sequence": "outro",
+                "monologue": false
+            }
+        ]
     },
 
     "kolikot":{
@@ -147,9 +155,16 @@
         ],
         "koukku": [
             {
-                "command": "play_sequence",
-                "sequence": "outro",
-                "monologue": false
+                "command": "monologue",
+                "textkey": {"object": "koysi_item", "string": "koukku"}
+            },
+            {
+                "command": "inventory_remove",
+                "item": "koysi_item"
+            },
+            {
+                "command": "add_object",
+                "object": "h_koysi"
             }
         ],
         "ikkuna": [
